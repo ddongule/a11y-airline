@@ -1,9 +1,16 @@
+.a11y {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .hidden {
   display: none;
 }
 
-input[type='number']::-webkit-inner-spin-button,
-input[type='number']::-webkit-outer-spin-button {
+.passenger-count-input::-webkit-inner-spin-button,
+.passenger-count-input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
